@@ -123,6 +123,14 @@ const response = await fetch('https://your-vercel-app.vercel.app/api/some_endpoi
 
 Your middleware can then access them safely like this: `process.env.MY_WORKER_SECRET`.
 
+## Roadmap: Universal Protection
+
+The current solution is a TypeScript middleware, providing a critical, immediate defense for the Next.js ecosystem.
+
+The long-term vision for Vercel Shield is to evolve into a **universal, framework security layer** capable of protecting **any application** on Vercel, including those written in Python, Go, Ruby, and other languages.
+
+Contributions and ideas are always welcome.
+
 ## License
 
 This project is licensed under the **MIT License**. See the `LICENSE` file for details.
